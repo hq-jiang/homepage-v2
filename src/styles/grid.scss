@@ -1,0 +1,46 @@
+@import "./common.scss";
+
+h1 {
+  grid-area: head;
+  font-family: $main-font;
+  color: $font-color;
+  font-size: 50px
+}
+
+p {
+  grid-area: card;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+.banner-left {
+  grid-area: banner-left;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+.banner-right {
+  grid-area: banner-right;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+nav {
+  grid-area: navi;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+footer {
+  grid-area: foot;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 200px repeat(2, 1fr) 200px;
+  grid-template-rows: 150px 50px minmax(800px, max-content) 25px;
+  grid-template-areas: "head head head head" "navi navi navi navi" "banner-left card card banner-right" "foot foot foot foot";
+}
+
