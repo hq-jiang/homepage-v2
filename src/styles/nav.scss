@@ -5,6 +5,9 @@ $nav-bg-color-focused: rgb(121,91,91);
 
 nav {
   font-size: 14px;
+  color: $font-color;
+  font-family: $main-font;
+  
   ul {
     padding: 0px;
     margin-top: 0px;

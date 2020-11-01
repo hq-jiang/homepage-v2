@@ -1,0 +1,18 @@
+@import "./common.scss";
+
+$footer-bg-color: rgb(152,115,115);
+
+footer {
+  grid-area: foot;
+  font-family: $main-font;
+  font-size: 12px;
+  color: $font-color;
+  padding-left: 15px;
+  padding-top: 5px;
+  background-color: $footer-bg-color;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
