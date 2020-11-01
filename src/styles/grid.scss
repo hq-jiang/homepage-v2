@@ -1,13 +1,15 @@
 @import "./common.scss";
 
+
 h1 {
   grid-area: head;
   font-family: $main-font;
   color: $font-color;
-  font-size: 50px
+  font-size: 50px;
+  text-align: center;
 }
 
-p {
+.card-box-grid-area {
   grid-area: card;
   font-family: $main-font;
   color: $font-color;
@@ -39,8 +41,7 @@ footer {
 
 .main-grid {
   display: grid;
-  grid-template-columns: 200px repeat(2, 1fr) 200px;
-  grid-template-rows: 150px 50px minmax(800px, max-content) 25px;
+  grid-template-columns: 50px repeat(2, 1fr) 50px;
+  grid-template-rows: 150px 50px minmax(1200px, max-content) 25px;
   grid-template-areas: "head head head head" "navi navi navi navi" "banner-left card card banner-right" "foot foot foot foot";
 }
-
