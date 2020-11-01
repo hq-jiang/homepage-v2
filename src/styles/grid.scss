@@ -1,12 +1,13 @@
 @import "./common.scss";
 
 
-h1 {
+.header-grid-area {
   grid-area: head;
   font-family: $main-font;
   color: $font-color;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+
 }
 
 .card-box-grid-area {
