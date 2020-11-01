@@ -1,0 +1,46 @@
+@import "./common.scss";
+
+
+.header-grid-area {
+  grid-area: head;
+  font-family: 'Dancing Script', cursive;
+  color: $font-color;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+.card-box-grid-area {
+  grid-area: card;
+  font-family: $main-font;
+  color: $font-color;
+}
+
+.nav-grid-area {
+  grid-area: navi;
+}
+
+footer {
+  grid-area: foot;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 100px minmax(1200px, max-content) 25px;
+  grid-template-areas: "navi" "head" "card" "foot";
+}
+
+@media (min-width:901px) {
+  .header-grid-area {
+    grid-area: head;
+    font-size: 50px;
+  }
+  
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 450px) 1fr;
+    grid-template-rows: 60px 120px minmax(1200px, max-content) 25px;
+    grid-template-areas: "navi navi navi navi" "head head head head" ". card card ." "foot foot foot foot";
+  }
+}

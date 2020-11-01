@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
+    // publicPath: '/',
     filename: 'index_bundle.js'
   },
   // Style loaders
@@ -16,9 +16,20 @@ module.exports = {
       {
       test: /\.s[ac]ss$/i,
       use: [
-          MiniCssExtractPlugin.loader,
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: "/"
+            }
+          },
           'css-loader',
-          'sass-loader',
+          'resolve-url-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
       ],
       },
       {
@@ -38,7 +49,12 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/views/index.html')
+      template: path.resolve(__dirname, './src/views/index.html'),
+      filename: 'index.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/views/blog_entries/blogentry_template.html'),
+      filename: 'blog_entries/blogentry_template.html'
     }),
     new MiniCssExtractPlugin()
   ]
