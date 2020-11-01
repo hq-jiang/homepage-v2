@@ -1,5 +1,5 @@
-$bg-color: rosybrown;
+@import "./common.scss";
 
 body {
-  background: linear-gradient(rgba(166,116,116, 0.8), rgba(166,116,116, 0.8)), url('../assets/background/rose_pattern_min.jpg');
+  background: linear-gradient($bg-color, $bg-color), url('../assets/background/rose_pattern_min.jpg');
 }
