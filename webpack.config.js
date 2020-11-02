@@ -18,9 +18,6 @@ module.exports = {
       use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: {
-              publicPath: "/"
-            }
           },
           'css-loader',
           'resolve-url-loader',
