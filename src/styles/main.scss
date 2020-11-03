@@ -1,3 +1,4 @@
+@import "./common.scss";
 @import "./background.scss";
 @import "./grid.scss";
 @import "./card.scss";
@@ -7,4 +8,9 @@
 
 body {
   margin: 0;
+}
+
+.home-link {
+  text-decoration: none;
+  color: $font-color;
 }
