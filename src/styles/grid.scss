@@ -3,10 +3,6 @@
 
 .header-grid-area {
   grid-area: head;
-  font-family: 'Dancing Script', cursive;
-  color: $font-color;
-  font-size: 35px;
-  text-align: center;
 }
 
 .card-box-grid-area {
@@ -31,11 +27,11 @@
 }
 
 @media (min-width:901px) {
+
   .header-grid-area {
     grid-area: head;
-    font-size: 50px;
   }
-  
+
   .banner-left {
     grid-area: banner-left;
   }
