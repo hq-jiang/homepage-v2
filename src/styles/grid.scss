@@ -7,7 +7,6 @@
   color: $font-color;
   font-size: 35px;
   text-align: center;
-
 }
 
 .card-box-grid-area {
@@ -20,14 +19,14 @@
   grid-area: navi;
 }
 
-footer {
+.footer-grid-area {
   grid-area: foot;
 }
 
 .main-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 60px 100px minmax(1200px, max-content) 25px;
+  grid-template-rows: 60px 100px minmax(1200px, max-content) minmax(25px, max-content);
   grid-template-areas: "navi" "head" "card" "foot";
 }
 
@@ -48,7 +47,7 @@ footer {
   .main-grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, 450px) 1fr;
-    grid-template-rows: 60px 120px minmax(1200px, max-content) 25px;
+    grid-template-rows: 60px 120px minmax(1200px, max-content) minmax(25px, max-content);;
     grid-template-areas: "navi navi navi navi" "head head head head" "banner-left card card banner-right" "foot foot foot foot";
   }
 }

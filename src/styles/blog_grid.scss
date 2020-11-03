@@ -24,7 +24,7 @@ footer {
   grid-area: foot;
 }
 
-.main-grid {
+.blog-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 60px 100px minmax(1200px, max-content) 25px;
@@ -37,7 +37,7 @@ footer {
     font-size: 50px;
   }
   
-  .main-grid {
+  .blog-grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, 450px) 1fr;
     grid-template-rows: 60px 120px minmax(1200px, max-content) 25px;
