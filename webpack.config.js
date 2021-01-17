@@ -56,6 +56,10 @@ module.exports = {
       template: path.resolve(__dirname, './src/views/blog_entries/blogentry_template.html'),
       filename: 'blog_entries/blogentry_template.html'
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, './src/views/blog_entries/01_title.html'),
+      filename: 'blog_entries/01_title.html'
+    }),
     new MiniCssExtractPlugin()
   ]
 };
