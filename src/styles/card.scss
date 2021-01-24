@@ -12,16 +12,27 @@
   padding: 25px;
   border-radius: 15px;
   box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
+
+  p {
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    font-size: x-large;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
 }
+
 
 .card:hover {
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: $bg-color-focused;
 }
 
-p {
-  a {
-    text-decoration: none;
-    color: $font-color;
-  }
+.card-none-deco{
+  text-decoration: none;
+  color: $font-color;
 }
+
