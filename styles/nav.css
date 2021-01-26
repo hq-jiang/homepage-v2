@@ -27,6 +27,9 @@ nav li {
   float: left;
 }
 
+.active-nav {
+  background-color:#806363;
+}
 
 @media (min-width:901px) {
   nav {
