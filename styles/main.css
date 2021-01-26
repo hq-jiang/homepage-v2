@@ -5,6 +5,7 @@
 @import "./nav.css";
 @import "./footer.css";
 @import "./blog.css";
+@import "./sketchfab.css";
 
 body {
   margin: 0;
@@ -16,12 +17,3 @@ body {
   margin-right: auto;
   width: 70%;
 }
-
-.sketchfab-embed-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-
