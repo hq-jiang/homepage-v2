@@ -10,6 +10,18 @@ body {
   margin: 0;
 }
 
-.sketchfab-embed-wrapper {
-  margin: 20px auto;
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
+
+.sketchfab-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
