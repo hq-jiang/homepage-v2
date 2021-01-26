@@ -1,0 +1,15 @@
+@import "./background.css";
+@import "./grid.css";
+@import "./header.css";
+@import "./card.css";
+@import "./nav.css";
+@import "./footer.css";
+@import "./blog.css";
+
+body {
+  margin: 0;
+}
+
+.sketchfab-embed-wrapper {
+  margin: 20px auto;
+}

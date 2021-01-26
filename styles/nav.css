@@ -1,0 +1,35 @@
+nav {
+  font-size: 14px;
+  color: blanchedalmond;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul {
+  padding: 0px;
+  margin-top: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #987373;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 13px 17px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #795b5b;
+}
+nav li {
+  float: left;
+}
+
+
+@media (min-width:901px) {
+  nav {
+    font-size: 17px;
+  }
+}

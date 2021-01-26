@@ -1,10 +1,10 @@
-@import "./common.scss";
+@import "./common.css";
 
 
 .header-grid-area {
   grid-area: head;
   font-family: 'Dancing Script', cursive;
-  color: $font-color;
+  color: blanchedalmond;
   font-size: 35px;
   text-align: center;
 
@@ -12,8 +12,8 @@
 
 .card-box-grid-area {
   grid-area: card;
-  font-family: $main-font;
-  color: $font-color;
+  font-family: 'Ubuntu', sans-serif;
+  color: blanchedalmond;
 }
 
 .nav-grid-area {

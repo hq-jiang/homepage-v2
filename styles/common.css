@@ -2,6 +2,6 @@ $font-color:blanchedalmond;
 $main-font: 'Ubuntu', sans-serif;
 $bg-color: rgba(166,116,116, 0.7);
 $bg-color-unfocused: rgba(166,116,116, 0.5);
-$bg-color-unfocused-opaque: rgb(166,116,116);
+rgb(166,116,116): rgb(166,116,116);
 $bg-color-focused: rgba(166,116,116, 0.85);
 // $bg-color-focused-opaque: rgb(166,116,116);

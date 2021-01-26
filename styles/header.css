@@ -1,8 +1,6 @@
-@import "./common.scss";
-
 header {
   font-family: 'Dancing Script', cursive;
-  color: $font-color;
+  color: blanchedalmond;
   font-size: 20px;
   text-align: center;
 }
@@ -15,5 +13,5 @@ header {
 
 .home-link {
   text-decoration: none;
-  color: $font-color;
+  color: blanchedalmond;
 }
