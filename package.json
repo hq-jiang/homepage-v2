@@ -4,7 +4,9 @@
   "description": "Home page of Hanqiu Jiang",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "dev-server": "parcel index.html"
   },
   "repository": {
     "type": "git",
