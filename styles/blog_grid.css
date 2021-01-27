@@ -1,13 +1,8 @@
-@import "./common.css";
-
-
 .header-grid-area {
   grid-area: head;
-  font-family: 'Dancing Script', cursive;
   color: blanchedalmond;
   font-size: 35px;
   text-align: center;
-
 }
 
 .card-box-grid-area {
