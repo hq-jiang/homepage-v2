@@ -1,0 +1,8 @@
+jobs:
+  build:
+    name: Build and deploy homepage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: npm install
+      - run: npm run build
