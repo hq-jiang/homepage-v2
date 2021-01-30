@@ -1,6 +1,9 @@
+name: A workflow to build and deploy my homepage
+on: push
+
 jobs:
   build:
-    name: Build and deploy homepage
+    name: Build homepage with Parcel
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
