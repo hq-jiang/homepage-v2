@@ -2,11 +2,11 @@
   "name": "homepage",
   "version": "1.0.0",
   "description": "Home page of Hanqiu Jiang",
-  "main": "index.js",
+  "main": "www/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html",
-    "dev-server": "parcel index.html"
+    "build": "parcel build www/index.html",
+    "dev-server": "parcel www/index.html"
   },
   "repository": {
     "type": "git",
