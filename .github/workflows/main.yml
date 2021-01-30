@@ -7,18 +7,18 @@ on:
 
 jobs:
   build:
-    name: Build homepage with Parcel
+    name: Build and Deploy homepage
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v1
 
-      - name: Build
+      - name: Build with Parcel
         run: | 
           npm install
           npm run build
 
-      - name: Deploy
+      - name: Deploy to github pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
