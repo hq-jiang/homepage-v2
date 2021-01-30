@@ -1,6 +1,7 @@
 name: A workflow to build and deploy my homepage
-on: push
-  branches:
+on: 
+  push:
+    branches:
       - master
 
 
