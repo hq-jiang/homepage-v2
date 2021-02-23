@@ -1,5 +1,6 @@
 .blog {
-  background-image: url('../assets/background_blog/brown.jpg');
+  /* background-image: url('../assets/background_blog/brown.jpg'); */
+  background-color: #a77658;
   background-size: auto 100%;
   padding: 40px;
   padding-top: 10px;
