@@ -1,16 +1,16 @@
 .card-box {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .card {
   background-color: rgba(166, 116, 116, 0.5);
-  padding: 25px;
+  padding: 15px;
+  margin: 5px;
   border-radius: 15px;
   box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.2);
-  margin: 10px
 }
 .card p {
   margin: 0px;
@@ -32,3 +32,14 @@
   color: blanchedalmond;
 }
 
+@media (min-width:901px) {
+  .card-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .card {
+    padding: 25px;
+    margin: 10px
+  }
+}
