@@ -2,11 +2,20 @@
   /* background-image: url('../assets/background_blog/brown.jpg'); */
   background-color: #a77658;
   background-size: auto 100%;
-  padding: 40px;
+  padding: 20px;
   padding-top: 10px;
+  margin: 10px;
   
   height: minmax(1200px, max-content);
   border-radius: 15px;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
-  margin: 20px;
+  
+}
+
+@media (min-width:901px) {
+  .blog {
+    padding: 40px;
+    padding-top: 10px;
+    margin: 20px;
+  }
 }
