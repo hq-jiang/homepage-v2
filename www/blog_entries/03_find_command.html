@@ -25,20 +25,19 @@
       </nav>
       <div class="card-box-grid-area blog">
         <h1>The Bash <code class="language-bash">find</code> Command</h1>
-        <p>
-          <h3>Basic Usage</h3>
-          <pre><code class="language-bash">find "path" -name "*jpg"</code></pre>
-          <h3>Filter for Files or Directories</h3>
-          <pre><code class="language-bash"># Find only files
+        <h3>Basic Usage</h3>
+        <pre><code class="language-bash">find "path" -name "*jpg"</code></pre>
+        <h3>Filter for Files or Directories</h3>
+        <pre><code class="language-bash"># Find only files
 find -name "*jpg" -type f
 # Find only directories
 find -name "*jpg" -type d</code></pre>
-          <h3>Ignore Case</h3> 
-          <pre><code class="language-bash">find -iname "*jpg"</code></pre>
-          <h3>Combine Conditions</h3>
-          <pre><code class="language-bash">find -name "2021*" -name "*jpg"</code></pre>
-          <h3>By Size</h3>
-          <pre><code class="language-bash"># Files bigger than 10 Kilobytes
+        <h3>Ignore Case</h3> 
+        <pre><code class="language-bash">find -iname "*jpg"</code></pre>
+        <h3>Combine Conditions</h3>
+        <pre><code class="language-bash">find -name "2021*" -name "*jpg"</code></pre>
+        <h3>By Size</h3>
+        <pre><code class="language-bash"># Files bigger than 10 Kilobytes
 find -size +10K
 # Files bigger than 10 Megabytes
 find -size +10M
@@ -46,8 +45,8 @@ find -size +10M
 find -size +10G
 # Files smaller than 10 Gigabytes
 find -size -10G</code></pre>
-          <h3>By Time</h3>
-          <pre><code class="language-bash"># Files modified less than 10 minutes ago
+        <h3>By Time</h3>
+        <pre><code class="language-bash"># Files modified less than 10 minutes ago
 find -mmin -10
 # Files modified more than 10 minutes ago
 find -mmin +10
@@ -57,9 +56,8 @@ find -mmin 10
 # Same rules with mtime for days
 find -mtime -10
 </code></pre>
-        <h3>Footnote</h3>
-        </p>
-        <p> Props to prism.js for the pretty code formatting
+        <h4 style="margin-bottom: 0px; margin-top: 50px;">Footnote</h4>
+        <p style="margin-top: 10px;"> Props to prism.js for the pretty code formatting
         </p>
       </div>
       <footer class="footer-grid-area">
