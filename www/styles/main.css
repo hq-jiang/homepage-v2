@@ -18,6 +18,12 @@ body {
   width: 100%;
 }
 
+.center-image-no-size {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 @media (min-width:901px) {
   .center-image {
     width: 85%;
